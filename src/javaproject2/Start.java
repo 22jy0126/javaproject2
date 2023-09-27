@@ -3,8 +3,9 @@ package javaproject2;
 public class Start {
 
 	public static void main(String[] args) {
-		System.out.println("hello git");
-
+		for (int i = 0; i < 5; i++) {
+			System.out.println(i + "hello git");
+		}
 	}
 
 }
